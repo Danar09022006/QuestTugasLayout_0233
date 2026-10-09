@@ -72,7 +72,14 @@ fun UserCardItem(
                     .weight(1f)
                     .padding(horizontal = 15.dp)
             )
-            {}
+            {Text(
+                text = stringResource(id = nameRes),
+                color = colorResource(id = R.color.white),
+                fontSize = if (isCursiveName) 17.sp else 19.sp,
+                fontWeight = if (isCursiveName) FontWeight.Black else FontWeight.Bold,
+                fontFamily = if (isCursiveName) FontFamily.SansSerif else FontFamily.SansSerif
+            )
+
         }
 
     }
