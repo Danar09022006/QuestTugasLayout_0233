@@ -124,6 +124,13 @@ fun TugasLayout(modifier: Modifier = Modifier) {
                     fontWeight = FontWeight.ExtraBold,
                     color = colorResource(id = R.color.black)
                 )
+            Text(
+                text = stringResource(id = R.string.header_subtitle),
+                fontSize = 14.sp,
+                fontWeight = FontWeight.SemiBold,
+                color = colorResource(id = R.color.black),
+                modifier = Modifier.padding(top = 4.dp)
+            )
         }
 }
 
