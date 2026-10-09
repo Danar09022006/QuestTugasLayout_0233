@@ -79,6 +79,13 @@ fun UserCardItem(
                 fontWeight = if (isCursiveName) FontWeight.Black else FontWeight.Bold,
                 fontFamily = if (isCursiveName) FontFamily.SansSerif else FontFamily.SansSerif
             )
+                if (phoneRes != null) {
+                    Text(
+                        text = stringResource(id = phoneRes),
+                        color = colorResource(id = R.color.black),
+                        fontSize = 14.sp,
+                        modifier = Modifier.padding(top = 5.dp)
+                    )
 
         }
 
