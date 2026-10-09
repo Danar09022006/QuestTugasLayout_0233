@@ -43,4 +43,15 @@ fun UserCardItem(
 ) {
     // Variabel gambar untuk menyimpan resource logo
     val gambar = painterResource(id = logoRes)
+
+    Card(
+        modifier = modifier
+            .fillMaxWidth()
+            .padding(horizontal = 10.dp, vertical = 7.dp),
+        shape = RoundedCornerShape(16.dp),
+        colors = CardDefaults.cardColors(
+            containerColor = colorResource(id = containerColorRes)
+        )
+    )
+
 }
