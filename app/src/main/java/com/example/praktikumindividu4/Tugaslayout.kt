@@ -53,5 +53,15 @@ fun UserCardItem(
             containerColor = colorResource(id = containerColorRes)
         )
     )
+    {
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(horizontal = 10.dp, vertical = 9.dp),
+            verticalAlignment = Alignment.CenterVertically
+        )
+        {}
+
+    }
 
 }
