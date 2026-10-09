@@ -97,5 +97,13 @@ fun UserCardItem(
                 )
 
     }
-
+            Image(
+                painter = gambar,
+                contentDescription = stringResource(id = R.string.logo_desc),
+                modifier = Modifier.size(logoSize)
+            )
+        }
+    }
 }
+
+
