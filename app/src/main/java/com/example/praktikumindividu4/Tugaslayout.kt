@@ -131,6 +131,9 @@ fun TugasLayout(modifier: Modifier = Modifier) {
                 color = colorResource(id = R.color.black),
                 modifier = Modifier.padding(top = 4.dp)
             )
+
+            Spacer(modifier = Modifier.height(20.dp))
+
         }
 }
 
