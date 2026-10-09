@@ -16,9 +16,11 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             PraktikumIndividu4Theme {
-
+                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+                    TugasLayout(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
     }
+}
 
