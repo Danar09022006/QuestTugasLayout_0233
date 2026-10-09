@@ -25,11 +25,9 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.praktikumindividu4.ui.theme.PraktikumIndividu4Theme
 
 fun UserCardItem(
     @StringRes nameRes: Int,
@@ -107,7 +105,7 @@ fun UserCardItem(
 }
 
 @Composable
-fun TugasLayout(modifier: Modifier = Modifier) {
+fun TugasLayout(modifier: Modifier = Modifier, align: Modifier.Companion.(Alignment) -> Unit) {
     Box(
         modifier = modifier.fillMaxSize()
     ){
@@ -166,6 +164,17 @@ fun TugasLayout(modifier: Modifier = Modifier) {
                 containerColorRes = R.color.purple_500
             )
         }
+}
+
+    Text(
+        text = stringResource(id = R.string.copyright),
+        fontSize = 12.sp,
+        color = colorResource(id = R.color.black),
+        modifier = Modifier
+            .align(Alignment.BottomCenter)
+            .padding(bottom = 24.dp)
+    )
+}
 }
 
 
