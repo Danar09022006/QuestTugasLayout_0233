@@ -110,7 +110,15 @@ fun UserCardItem(
 fun TugasLayout(modifier: Modifier = Modifier) {
     Box(
         modifier = modifier.fillMaxSize()
-    )
+    ){
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(top = 40.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ){
+
+        }
 }
 
 
