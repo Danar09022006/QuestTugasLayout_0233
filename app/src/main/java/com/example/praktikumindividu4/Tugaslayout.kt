@@ -118,6 +118,12 @@ fun TugasLayout(modifier: Modifier = Modifier) {
             horizontalAlignment = Alignment.CenterHorizontally
         ){
 
+                Text(
+                    text = stringResource(id = R.string.header_title),
+                    fontSize = 24.sp,
+                    fontWeight = FontWeight.ExtraBold,
+                    color = colorResource(id = R.color.black)
+                )
         }
 }
 
