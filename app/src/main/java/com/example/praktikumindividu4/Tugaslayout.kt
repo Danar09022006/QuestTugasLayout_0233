@@ -40,4 +40,7 @@ fun UserCardItem(
     isCursiveName: Boolean = false,
     @DrawableRes logoRes: Int = R.drawable.logo_umy,
     logoSize: Dp = 100.dp
-) {}
+) {
+    // Variabel gambar untuk menyimpan resource logo
+    val gambar = painterResource(id = logoRes)
+}
