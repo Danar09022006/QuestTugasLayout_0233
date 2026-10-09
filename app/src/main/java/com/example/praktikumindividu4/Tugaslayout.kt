@@ -87,7 +87,14 @@ fun UserCardItem(
                         modifier = Modifier.padding(top = 5.dp)
                     )
 
+
         }
+                Text(
+                    text = stringResource(id = addressRes),
+                    color = colorResource(id = R.color.white),
+                    fontSize = 14.sp,
+                    modifier = Modifier.padding(top = 2.dp)
+                )
 
     }
 
