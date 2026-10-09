@@ -30,3 +30,14 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.praktikumindividu4.ui.theme.PraktikumIndividu4Theme
+
+fun UserCardItem(
+    @StringRes nameRes: Int,
+    @StringRes addressRes: Int,
+    @ColorRes containerColorRes: Int,
+    modifier: Modifier = Modifier,
+    @StringRes phoneRes: Int? = null,
+    isCursiveName: Boolean = false,
+    @DrawableRes logoRes: Int = R.drawable.logo_umy,
+    logoSize: Dp = 100.dp
+) {}
