@@ -60,7 +60,13 @@ fun UserCardItem(
                 .padding(horizontal = 10.dp, vertical = 9.dp),
             verticalAlignment = Alignment.CenterVertically
         )
-        {}
+        {
+            Image(
+                painter = gambar,
+                contentDescription = stringResource(id = R.string.logo_desc),
+                modifier = Modifier.size(logoSize)
+            )
+        }
 
     }
 
