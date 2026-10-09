@@ -66,6 +66,13 @@ fun UserCardItem(
                 contentDescription = stringResource(id = R.string.logo_desc),
                 modifier = Modifier.size(logoSize)
             )
+
+            Column(
+                modifier = Modifier
+                    .weight(1f)
+                    .padding(horizontal = 15.dp)
+            )
+            {}
         }
 
     }
