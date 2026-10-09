@@ -134,6 +134,14 @@ fun TugasLayout(modifier: Modifier = Modifier) {
 
             Spacer(modifier = Modifier.height(20.dp))
 
+            // Card 1
+            UserCardItem(
+                nameRes = R.string.nama_1,
+                phoneRes = R.string.telepon_1,
+                addressRes = R.string.alamat_1,
+                containerColorRes = R.color.teal_200,
+                isCursiveName = true
+            )
         }
 }
 
