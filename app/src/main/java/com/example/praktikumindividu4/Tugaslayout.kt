@@ -164,7 +164,7 @@ fun TugasLayout(modifier: Modifier = Modifier, align: Modifier.Companion.(Alignm
                 containerColorRes = R.color.purple_500
             )
         }
-}
+
 
     Text(
         text = stringResource(id = R.string.copyright),
@@ -175,6 +175,14 @@ fun TugasLayout(modifier: Modifier = Modifier, align: Modifier.Companion.(Alignm
             .padding(bottom = 24.dp)
     )
 }
+}
+
+@Preview(showBackground = true, showSystemUi = true)
+@Composable
+fun TugasLayoutPreview() {
+    PraktikumIndividu4Theme {
+        TugasLayout()
+    }
 }
 
 
