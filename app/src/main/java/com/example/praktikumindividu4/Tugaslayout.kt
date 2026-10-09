@@ -142,6 +142,29 @@ fun TugasLayout(modifier: Modifier = Modifier) {
                 containerColorRes = R.color.teal_200,
                 isCursiveName = true
             )
+            // Card 2
+            UserCardItem(
+                nameRes = R.string.nama_2,
+                phoneRes = R.string.telepon_2,
+                addressRes = R.string.alamat_2,
+                containerColorRes = R.color.card_4_bg
+            )
+
+            // Card 3
+            UserCardItem(
+                nameRes = R.string.nama_3,
+                phoneRes = R.string.telepon_3,
+                addressRes = R.string.alamat_3,
+                containerColorRes = R.color.purple_200
+            )
+
+            // Card 4
+            UserCardItem(
+                nameRes = R.string.nama_4,
+                phoneRes = R.string.telepon_4,
+                addressRes = R.string.alamat_4,
+                containerColorRes = R.color.purple_500
+            )
         }
 }
 
